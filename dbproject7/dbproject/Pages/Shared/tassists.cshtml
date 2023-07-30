@@ -1,0 +1,34 @@
+﻿@page
+@model dbproject.Pages.tassistsModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule3.css">
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>SHIRT NUMBER</th>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>Assists</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofgoals)
+                {
+                    <tr>
+                        <td>@item.sn</td>
+                        <td>@item.fn</td>
+                        <td>@item.ln</td>
+                        <td>@item.att</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

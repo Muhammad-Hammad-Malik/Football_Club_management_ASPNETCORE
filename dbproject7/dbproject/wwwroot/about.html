@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=Kanit:wght@100&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .cont {
+            min-height: 100vh;
+            background: linear-gradient(225deg,#000000,#000000,#000000);
+            background-size: 300% 300%;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: 'Libre Baskerville', serif;
+            height: 100%;
+            width: 100%;
+            margin: 0rem;
+        }
+
+        .banner-area {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(club.jpg);
+            background-size: cover;
+        }
+
+        .content-area {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line {
+            height: 1px;
+            background: white;
+            margin-top: 200px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+            .content h1 {
+                font-size: 80px;
+                color: #fff;
+            }
+
+            .content h2 {
+                font-size: 50px;
+                color: #fff;
+            }
+
+            .content p {
+                font-size: 20px;
+                color: #ddd;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: stretch;
+            margin: 0 auto;
+            width: 80%;
+            margin: 50px auto;
+            padding: 10px;
+        }
+
+        .small-box {
+            font-family: 'Inconsolata', monospace;
+            display: inline-block;
+            flex-basis: 100%;
+            max-width: 320px;
+            margin: 80px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            justify-content: center;
+            padding: 100px;
+            transition: 1s;
+            object-fit: cover;
+        }
+
+            .small-box:hover {
+                transform: scale(1.05);
+            }
+
+        .video-box:hover {
+            transform: scale(1.1);
+        }
+
+        .video-box {
+            font-family: 'Inconsolata', monospace;
+            display: flex;
+            flex-basis: 100%;
+            max-width: 1250px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 250px;
+            transition: 1s;
+        }
+
+        #player {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+            #player video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-top: 100px;
+            object-position: 100% center;
+            margin-bottom: 100px;
+        }
+
+        @media (min-width: 768px) {
+            .small-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .video-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .small-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .video-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-area">
+        <div class="content-area">
+            <div class="content">
+                <h1>About Club</h1>
+
+                <div class="paragraph">
+                    <p>FC Bayern has a rich history that dates back to its founding in 1900. The club has won numerous domestic and international titles, including 31 Bundesliga titles, 20 DFB-Pokal cups, and 6 UEFA Champions League titles. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <h2>asdasdadsasd</h2>
+        <div class="container">
+            <img class="image" src="content/ucl.jpg" />
+            <img class="image" src="content/dfb.jpg" />
+            <img class="image" src="content/league.jpg" />
+            <div class="video-box">
+                <div id="player">
+                    <video src="content/bayern.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+            <div class="line"></div>
+            <hr style="border-right: 995px solid white;">
+            <div class="content">
+                <h2>Mission statement</h2>
+                <p>"Our mission at Bayern Club is to promote excellence in football, foster a strong sense of community among our supporters, and inspire the next generation of athletes to achieve their full potential. We strive to uphold the highest standards of sportsmanship and integrity, both on and off the field, and to create a culture of inclusivity and diversity that celebrates the unique talents and backgrounds of all our players, staff, and fans. Through our commitment to excellence, teamwork, and respect, we aim to be a shining example of what a football club can achieve when it is driven by passion, dedication, and a deep love of the game."</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

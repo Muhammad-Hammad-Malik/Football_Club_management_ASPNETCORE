@@ -1,0 +1,89 @@
+﻿@page
+@model dbproject.Pages.xincomeModel
+@{
+    Layout = null;
+}
+
+<head>
+    <link rel="stylesheet" href="schedule5.css">
+    <title></title>
+    <style>
+        .table-container {
+            position: relative;
+            margin: 50px auto;
+            width: 60%;
+            margin-left: 0%;
+        }
+
+        .table-container2 {
+            position: relative;
+            margin: 50px auto;
+            width: 60%;
+            margin-right: 0%;
+        }
+
+        .createbutton {
+            position: absolute;
+            top: 20%;
+            right: 100px; 
+            transform: translate(50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    </br>
+    </br>
+    </br>
+    </br>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>amount</th>
+                    <th>X</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.n</td>
+                        <td>@item.t</td>
+                        <td>@item.a</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="xincomedelete?iid=@item.iid">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="table-container2">
+        <table>
+            <thead>
+                <tr>
+                    <th>Fname</th>
+                    <th>Lname</th>
+                    <th>amount</th>
+                    <th>Created at</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists1)
+                {
+                    <tr>
+                        <td>@item.fname</td>
+                        <td>@item.lname</td>
+                        <td>@item.amount</td>
+                        <td>@item.date</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="createbutton"> <a class="createbutton1" href="xiincomecreate">CREATE</a></div>
+    
+   
+</body>

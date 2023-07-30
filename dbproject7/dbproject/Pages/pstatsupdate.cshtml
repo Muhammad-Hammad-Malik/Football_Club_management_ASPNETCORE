@@ -1,0 +1,101 @@
+﻿@page
+@model dbproject.Pages.pstatsupdateModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    <intput type="hidden" name="shirtno" value="@Model.info.shirtno">
+        @if (Model.errormessage.Length > 0)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>
+                    <strong>@Model.errormessage </strong>
+                </strong>
+                <button type="button" class="btn-close" aria-label="Close">close</button>
+            </div>
+        }
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">goals</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="g" value="@Model.info.g" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">assists</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="a" value="@Model.info.a" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">passes</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="p" value="@Model.info.p" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">dribbles</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="d" value="@Model.info.d" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">chances</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="cs" value="@Model.info.cs" />
+            </div>
+        </div>
+         <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">slide tackles</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="sld" value="@Model.info.sld" />
+            </div>
+        </div>
+         <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">stand tackles</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="std" value="@Model.info.std" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">duels</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="dls" value="@Model.info.dls" />
+            </div>
+        </div>
+         <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">interceptions</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="i" value="@Model.info.i" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">saves</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="s" value="@Model.info.s" />
+            </div>
+        </div>
+        @if (Model.smessage.Length > 0)
+        {
+            <div class="row mb-3">
+                <div class="col sm-9">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>
+                            <strong> @Model.smessage </strong>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary" href="/">SUBMIT</button>
+            </div>
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <a class="btn btn-outline-primary" href="pstatsview" role="button">CANCEL</a>
+            </div>
+        </div>
+</form>

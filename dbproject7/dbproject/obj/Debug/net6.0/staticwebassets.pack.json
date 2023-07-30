@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dbproject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\dbproject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\analyst2.css",
+      "PackagePath": "staticwebassets\\analyst2.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\allianzarena.jpg",
+      "PackagePath": "staticwebassets\\content\\allianzarena.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\alphonso.mp4",
+      "PackagePath": "staticwebassets\\content\\alphonso.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\alphonsodavies.webp",
+      "PackagePath": "staticwebassets\\content\\alphonsodavies.webp"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\analystbg.jpg",
+      "PackagePath": "staticwebassets\\content\\analystbg.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\analystbg.mp4",
+      "PackagePath": "staticwebassets\\content\\analystbg.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\anjonibrahimovic.jpg",
+      "PackagePath": "staticwebassets\\content\\anjonibrahimovic.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\arijon.mp4",
+      "PackagePath": "staticwebassets\\content\\arijon.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\bayern.mp4",
+      "PackagePath": "staticwebassets\\content\\bayern.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\benjaminpavard.jpg",
+      "PackagePath": "staticwebassets\\content\\benjaminpavard.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\bgvid.mp4",
+      "PackagePath": "staticwebassets\\content\\bgvid.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\bgvid1.mp4",
+      "PackagePath": "staticwebassets\\content\\bgvid1.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\bgvid2.webm",
+      "PackagePath": "staticwebassets\\content\\bgvid2.webm"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\cancelo.mp4",
+      "PackagePath": "staticwebassets\\content\\cancelo.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\dayot.mp4",
+      "PackagePath": "staticwebassets\\content\\dayot.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\dayotupamecano.jpeg",
+      "PackagePath": "staticwebassets\\content\\dayotupamecano.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\delight.mp4",
+      "PackagePath": "staticwebassets\\content\\delight.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\dfb.jpg",
+      "PackagePath": "staticwebassets\\content\\dfb.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\ericmaxim.webp",
+      "PackagePath": "staticwebassets\\content\\ericmaxim.webp"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\coach.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\coach.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\exit.png",
+      "PackagePath": "staticwebassets\\content\\exec\\exit.png"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\expend.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\expend.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\extend.jpeg",
+      "PackagePath": "staticwebassets\\content\\exec\\extend.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\income.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\income.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\info.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\info.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\injury.jpeg",
+      "PackagePath": "staticwebassets\\content\\exec\\injury.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\plo.jpeg",
+      "PackagePath": "staticwebassets\\content\\exec\\plo.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\schedule.jpeg",
+      "PackagePath": "staticwebassets\\content\\exec\\schedule.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\sell.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\sell.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\sign.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\sign.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\spc.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\spc.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\spf.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\spf.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\spn.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\spn.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\exec\\sps.jpg",
+      "PackagePath": "staticwebassets\\content\\exec\\sps.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\execbg.jpg",
+      "PackagePath": "staticwebassets\\content\\execbg.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\execbg.mp4",
+      "PackagePath": "staticwebassets\\content\\execbg.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\goretzka.mp4",
+      "PackagePath": "staticwebassets\\content\\goretzka.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\image1.jpg",
+      "PackagePath": "staticwebassets\\content\\image1.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\image2.jpg",
+      "PackagePath": "staticwebassets\\content\\image2.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\image3.png",
+      "PackagePath": "staticwebassets\\content\\image3.png"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\jamal.mp4",
+      "PackagePath": "staticwebassets\\content\\jamal.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\jamalmusiala.jpeg",
+      "PackagePath": "staticwebassets\\content\\jamalmusiala.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\joaocancelo.jpg",
+      "PackagePath": "staticwebassets\\content\\joaocancelo.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\joshuakimmich.jpg",
+      "PackagePath": "staticwebassets\\content\\joshuakimmich.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\josip.mp4",
+      "PackagePath": "staticwebassets\\content\\josip.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\josipstanisic.jpeg",
+      "PackagePath": "staticwebassets\\content\\josipstanisic.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\kimmich.mp4",
+      "PackagePath": "staticwebassets\\content\\kimmich.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\king.mp4",
+      "PackagePath": "staticwebassets\\content\\king.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\kingsleycoman.jpg",
+      "PackagePath": "staticwebassets\\content\\kingsleycoman.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\league.jpg",
+      "PackagePath": "staticwebassets\\content\\league.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\leongoretzka.jpg",
+      "PackagePath": "staticwebassets\\content\\leongoretzka.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\leroysane.jpeg",
+      "PackagePath": "staticwebassets\\content\\leroysane.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\lucas.mp4",
+      "PackagePath": "staticwebassets\\content\\lucas.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\lucashernandez.png",
+      "PackagePath": "staticwebassets\\content\\lucashernandez.png"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\mane.mp4",
+      "PackagePath": "staticwebassets\\content\\mane.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\mathys.mp4",
+      "PackagePath": "staticwebassets\\content\\mathys.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\mathystel.jpeg",
+      "PackagePath": "staticwebassets\\content\\mathystel.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\matthijsdelight.jpg",
+      "PackagePath": "staticwebassets\\content\\matthijsdelight.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\mazraoui.jpeg",
+      "PackagePath": "staticwebassets\\content\\mazraoui.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\neuer.jpg",
+      "PackagePath": "staticwebassets\\content\\neuer.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\neuer.mp4",
+      "PackagePath": "staticwebassets\\content\\neuer.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\noussair.mp4",
+      "PackagePath": "staticwebassets\\content\\noussair.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\paul.mp4",
+      "PackagePath": "staticwebassets\\content\\paul.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\paulwanner.jpeg",
+      "PackagePath": "staticwebassets\\content\\paulwanner.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\pavard.mp4",
+      "PackagePath": "staticwebassets\\content\\pavard.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\performbg.jpg",
+      "PackagePath": "staticwebassets\\content\\performbg.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\cancelo.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\cancelo.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\chupo.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\chupo.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\davies.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\davies.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\deligt.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\deligt.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\grav.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\grav.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\ibra.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\ibra.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\jamal.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\jamal.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\kimmich.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\kimmich.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\king.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\king.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\leon.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\leon.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\lucas.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\lucas.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\mane.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\mane.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\mazz.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\mazz.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\muller.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\muller.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\neuer.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\neuer.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\pavard.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\pavard.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\sane.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\sane.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\serge.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\serge.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\sommer.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\sommer.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\stanisic.jpg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\stanisic.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\tel.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\tel.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\ulreiich.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\ulreiich.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\upa.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\upa.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\playerimg\\wanner.jpeg",
+      "PackagePath": "staticwebassets\\content\\playerimg\\wanner.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\quote.png",
+      "PackagePath": "staticwebassets\\content\\quote.png"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\ryan.mp4",
+      "PackagePath": "staticwebassets\\content\\ryan.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\ryangravenberch.jpeg",
+      "PackagePath": "staticwebassets\\content\\ryangravenberch.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\s.mp4",
+      "PackagePath": "staticwebassets\\content\\s.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\sadiomane.jpg",
+      "PackagePath": "staticwebassets\\content\\sadiomane.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\sane.mp4",
+      "PackagePath": "staticwebassets\\content\\sane.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\serge.mp4",
+      "PackagePath": "staticwebassets\\content\\serge.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\sergegnabry.jpg",
+      "PackagePath": "staticwebassets\\content\\sergegnabry.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\signbg.jpg",
+      "PackagePath": "staticwebassets\\content\\signbg.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\signin.jpg",
+      "PackagePath": "staticwebassets\\content\\signin.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\signup\\analyst.jpg",
+      "PackagePath": "staticwebassets\\content\\signup\\analyst.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\signup\\executive.jpg",
+      "PackagePath": "staticwebassets\\content\\signup\\executive.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\aerial.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\aerial.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\assists.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\assists.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\chances.jpeg",
+      "PackagePath": "staticwebassets\\content\\stats\\chances.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\dribbles.jpeg",
+      "PackagePath": "staticwebassets\\content\\stats\\dribbles.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\goal.jpeg",
+      "PackagePath": "staticwebassets\\content\\stats\\goal.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\interceptions.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\interceptions.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\passes.jpeg",
+      "PackagePath": "staticwebassets\\content\\stats\\passes.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\saves.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\saves.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\slide.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\slide.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\stats\\stand.jpg",
+      "PackagePath": "staticwebassets\\content\\stats\\stand.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\statsbg.jpg",
+      "PackagePath": "staticwebassets\\content\\statsbg.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\sven.mp4",
+      "PackagePath": "staticwebassets\\content\\sven.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\svenulreich.jpeg",
+      "PackagePath": "staticwebassets\\content\\svenulreich.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\thomas.mp4",
+      "PackagePath": "staticwebassets\\content\\thomas.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\thomasmuller.jpeg",
+      "PackagePath": "staticwebassets\\content\\thomasmuller.jpeg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\ucl.jpg",
+      "PackagePath": "staticwebassets\\content\\ucl.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\yannsommer.jpg",
+      "PackagePath": "staticwebassets\\content\\yannsommer.jpg"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\content\\yannsommer.mp4",
+      "PackagePath": "staticwebassets\\content\\yannsommer.mp4"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\executive2.css",
+      "PackagePath": "staticwebassets\\executive2.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\formstyler.css",
+      "PackagePath": "staticwebassets\\formstyler.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\pcard.html",
+      "PackagePath": "staticwebassets\\pcard.html"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\performers2.css",
+      "PackagePath": "staticwebassets\\performers2.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\players3.css",
+      "PackagePath": "staticwebassets\\players3.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\schedule2.css",
+      "PackagePath": "staticwebassets\\schedule2.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\schedule3.css",
+      "PackagePath": "staticwebassets\\schedule3.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\schedule4.css",
+      "PackagePath": "staticwebassets\\schedule4.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\schedule5.css",
+      "PackagePath": "staticwebassets\\schedule5.css"
+    },
+    {
+      "Id": "D:\\STUDIES\\dbproject7\\dbproject\\wwwroot\\signin2.css",
+      "PackagePath": "staticwebassets\\signin2.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.dbproject.props",
+      "PackagePath": "build\\dbproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.dbproject.props",
+      "PackagePath": "buildMultiTargeting\\dbproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.dbproject.props",
+      "PackagePath": "buildTransitive\\dbproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.dbproject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

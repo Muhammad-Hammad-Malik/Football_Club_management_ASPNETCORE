@@ -1,0 +1,54 @@
+﻿@page
+@model dbproject.Pages.viewscheduleModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <style>
+        .createbutton2 {
+            position: absolute;
+            top: 20%;
+            right: 150px;
+            transform: translate(50%, -50%);
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Matchday</th>
+                    <th>Results</th>
+                    <th>Opponents</th>
+                    <th>Scoreline</th>
+                    <th>mdate</th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.m</td>
+                        <td>@item.r</td>
+                        <td>@item.o</td>
+                        <td>@item.s</td>
+                        <td>@item.d</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="scheduleupdate?m=@item.m">EDIT</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="scheduledelete?m=@item.m">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="createbutton2"> <a class="createbutton3" href="schedulecreate">CREATE</a></div>
+</body>

@@ -1,0 +1,70 @@
+﻿@page
+@model dbproject.Pages.spfcreateModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    @if (Model.errormessage.Length > 0)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+   `         <strong>
+                <strong>@Model.errormessage </strong>
+            </strong>
+            <button type="button" class="btn-close" aria-label="Close">close</button>
+        </div>
+    }
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">fname</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="fname" value="@Model.info2.fname" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">lname</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="lname" value="@Model.info2.lname" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">pid</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="pid" value="@Model.info.pid" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">tvalue</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="tvalue" value="@Model.info.tvalue" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">wages</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="wages" value="@Model.info.wages" />
+        </div>
+    </div>
+    @if (Model.smessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col sm-9">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>
+                        <strong> @Model.smessage </strong>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary" href="injury">SUBMIT</button>
+        </div>
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="xsign" role="button">CANCEL</a>
+        </div>
+    </div>
+</form>

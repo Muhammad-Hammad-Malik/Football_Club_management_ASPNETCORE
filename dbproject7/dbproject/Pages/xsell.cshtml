@@ -1,0 +1,36 @@
+﻿@page
+@model dbproject.Pages.xsellModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Value</th>
+                    <th>Y</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.fn</td>
+                        <td>@item.ln</td>
+                        <td>@item.tvalue</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="xselldelete?pid=@item.pid&amp;tvalue=@item.tvalue&amp;shirtno=@item.shirtno&amp;fname=@item.fn&amp;lname=@item.ln">Sell</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

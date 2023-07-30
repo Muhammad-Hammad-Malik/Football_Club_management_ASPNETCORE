@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Index1.cshtml.cs" />
+    <Compile Remove="Pages\Index2.cshtml.cs" />
+    <Compile Remove="Pages\Shared\tassists.cshtml.cs" />
+    <Compile Remove="Pages\tassists.cshtml.cs" />
+    <Compile Remove="tassists.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Index1.cshtml" />
+    <Content Remove="Pages\Index2.cshtml" />
+    <Content Remove="Pages\Shared\tassists.cshtml" />
+    <Content Remove="Pages\tassists.cshtml" />
+    <Content Remove="tassists.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\content\yannsommer.jpg" />
+    <None Remove="Pages\New Text Document.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Pages\content\yannsommer.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

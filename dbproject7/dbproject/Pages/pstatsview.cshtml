@@ -1,0 +1,54 @@
+﻿@page
+@model dbproject.Pages.pstatsviewModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>goals</th>
+                    <th>assists</th>
+                    <th>passes</th>
+                    <th>dribbles</th>
+                    <th>chances</th>
+                    <th>slide tackles</th>
+                    <th>standtackles</th>
+                    <th>duels</th>
+                    <th>interceptions</th>
+                    <th>saves</th>
+                    <th>X</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.fname</td>
+                        <td>@item.lname</td>
+                        <td>@item.g</td>
+                        <td>@item.a</td>
+                        <td>@item.p</td>
+                        <td>@item.d</td>
+                        <td>@item.cs</td>
+                        <td>@item.sld</td>
+                        <td>@item.std</td>
+                        <td>@item.dls</td>
+                        <td>@item.i</td>
+                        <td>@item.s</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="pstatsupdate?shirtno=@item.shirtno">EDIT</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

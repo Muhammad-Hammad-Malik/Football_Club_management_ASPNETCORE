@@ -1,0 +1,82 @@
+﻿@page
+@model dbproject.Pages.spncreateModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    @if (Model.errormessage.Length > 0)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>
+                <strong>@Model.errormessage </strong>
+            </strong>
+            <button type="button" class="btn-close" aria-label="Close">close</button>
+        </div>
+    }
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">pid</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="pid" value="@Model.info.pid" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">fname</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="fname" value="@Model.info.fname" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">lname</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="lname" value="@Model.info.lname" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">age</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="age" value="@Model.info.age" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">position</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="position" value="@Model.info.position" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">shirtno</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="shirtno" value="@Model.info.shirtno" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">nationality</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="nationality" value="@Model.info.nationality" />
+        </div>
+    </div>
+    @if (Model.smessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col sm-9">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>
+                        <strong> @Model.smessage </strong>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary" href="injury">SUBMIT</button>
+        </div>
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="xsign" role="button">CANCEL</a>
+        </div>
+    </div>
+</form>

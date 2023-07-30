@@ -1,0 +1,45 @@
+﻿@page
+@model dbproject.Pages.execpinfoModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Agency</th>
+                    <th>Contact</th>
+                    <th>contract</th>
+                    <th>Market Value</th>
+                    <th>Yearly Wages</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.fn</td>
+                        <td>@item.ln</td>
+                        <td>@item.a</td>
+                        <td>@item.ad</td>
+                        <td>@item.ag</td>
+                        <td>@item.cnt</td>
+                        <td>@item.ctr</td>
+                        <td>@item.v</td>
+                        <td>@item.w</td>
+                
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

@@ -1,0 +1,24 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        string iid = Request.Query["iid"];
+        string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=club;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "delete from expenditures where exid=@iid;";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@iid", iid);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+    Response.Redirect("xexpend");
+}

@@ -1,0 +1,64 @@
+﻿@page
+@model dbproject.Pages.injurycreateModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    @if (Model.errormessage.Length > 0)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>
+                <strong>@Model.errormessage </strong>
+            </strong>
+            <button type="button" class="btn-close" aria-label="Close">close</button>
+        </div>
+    }
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">incid</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="incid" value="@Model.info.incid" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Pid</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="pid" value="@Model.info.pid" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Injurytype</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="itype" value="@Model.info.itype" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">duration</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="duration" value="@Model.info.duration" />
+        </div>
+    </div>
+    @if (Model.smessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col sm-9">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>
+                        <strong> @Model.smessage </strong>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary" href="injury">SUBMIT</button>
+        </div>
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="injury" role="button">CANCEL</a>
+        </div>
+    </div>
+</form>

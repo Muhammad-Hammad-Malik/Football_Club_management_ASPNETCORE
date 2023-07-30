@@ -1,0 +1,125 @@
+﻿.container {
+    display: flex;
+    height: 100vh;
+    background-color: none;
+    opacity: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar-item {
+    display: block;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+    .sidebar-item:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 240px;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-image: url('content/signup/executive.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 1.5;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-image: url('content/signup/analyst.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 1.0;
+}
+
+.label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1;
+}
+
+.box1:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    width: 500px;
+    height: 500px;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    transition-duration: 1.0s;
+}
+
+.box2:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    width: 500px;
+    height: 500px;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    transition-duration: 1.0s;
+}
+
+body {
+    background-color: #1e0d0d;
+    background-image: url('content/signbg.jpg');
+    background-size: cover;
+}

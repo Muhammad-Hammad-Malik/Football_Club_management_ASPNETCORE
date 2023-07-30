@@ -1,0 +1,237 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dbproject
+build_property.RootNamespace = dbproject
+build_property.ProjectDir = D:\dbproject7\dbproject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\dbproject7\dbproject
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/dbproject7/dbproject/Pages/analyst.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYW5hbHlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/execpinfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXhlY3BpbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/executive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXhlY3V0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/injury.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5qdXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/injurycreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5qdXJ5Y3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/injurydelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5qdXJ5ZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/injuryupdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5qdXJ5dXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/performers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVyZm9ybWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/pinfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/pinfoupdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGluZm91cGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/players.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/pstatsupdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHN0YXRzdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/pstatsview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHN0YXRzdmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/saves.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2F2ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/sched.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2NoZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/schedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/schedulecreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2NoZWR1bGVjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/scheduledelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2NoZWR1bGVkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/scheduleupdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2NoZWR1bGV1cGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2lnbmluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/spfcreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3BmY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/spicreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3BpY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/spncreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3BuY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/spscreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3BzY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/stnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3RuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/ta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tchnc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGNobmMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/td.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tduels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGR1ZWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tgoals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGdvYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/tsld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdHNsZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/viewschedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdmlld3NjaGVkdWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xcoach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGNvYWNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xcoachedit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGNvYWNoZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xexpend.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGV4cGVuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xexpendcreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGV4cGVuZGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xexpenddelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGV4cGVuZGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xextend.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGV4dGVuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xextendedit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGV4dGVuZGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xiincomecreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGlpbmNvbWVjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xincome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGluY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xincomedelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGluY29tZWRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xinjury.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceGluanVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xsell.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceHNlbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xselldelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceHNlbGxkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/xsign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceHNpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dbproject7/dbproject/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6v7ur3d1bg

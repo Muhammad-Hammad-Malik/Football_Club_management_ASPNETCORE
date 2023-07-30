@@ -1,0 +1,47 @@
+﻿@page
+@model dbproject.Pages.schedModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule2.css">
+    <title></title>
+</head>
+<body>
+        <div class="container">
+            <div class="sidebar">
+                <a href="index"><div class="sidebar-item">Home</div></a>
+                <a href="players"><div class="sidebar-item">Players</div></a>
+                <a href="sched"><div class="sidebar-item">Schedule</div></a>
+                <a href="performers"><div class="sidebar-item">Top Performers</div></a>
+                <a href="about.html"><div class="sidebar-item">About Club</div></a>
+                <a href="signin"><div class="sidebar-item">Sign In</div></a>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>MATCH DAY</th>
+                        <th>RESULT</th>
+                        <th>OPPONENTS</th>
+                        <th>Scoreline</th>
+                        <th>DATE</th>
+                    </tr>
+                </thead>
+               <tbody>
+                @foreach(var item in Model.listofclients)
+                {
+                    <tr>
+                        <td>@item.md</td>
+                        <td>@item.r</td>
+                        <td>@item.op</td>
+                        <td>@item.sc</td>
+                        <td>@item.dt</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+</body>

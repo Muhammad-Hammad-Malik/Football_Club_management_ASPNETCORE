@@ -1,0 +1,24 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        string incid = Request.Query["incid"];
+        string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=club;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "delete from injury where incid=@incid;";
+            using (SqlCommand command = new SqlCommand(sql,connection))
+            {
+                command.Parameters.AddWithValue("@incid", incid);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+    Response.Redirect("injury");
+}

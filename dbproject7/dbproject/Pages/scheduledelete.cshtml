@@ -1,0 +1,24 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        string m = Request.Query["m"];
+        string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=club;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "delete from schedule where matchday=@m;";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@m", m);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+    Response.Redirect("viewschedule");
+}

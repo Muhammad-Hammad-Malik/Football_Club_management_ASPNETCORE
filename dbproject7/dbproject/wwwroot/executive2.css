@@ -1,0 +1,238 @@
+﻿
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    flex: 1;
+    padding-left: 240px;
+    transform: translate(100px,180px);
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/info.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/sign.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/sell.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/extend.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/coach.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/injury.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box7 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/income.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box8 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/expend.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box9 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/plo.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.box10 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background-image: url('content/exec/exit.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+}
+
+.box1:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box2:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box3:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box4:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box5:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box6:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box7:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box8:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box9:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.box10:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+body {
+    transform: translate(-200px);
+    background-image: url('content/execbg.jpg');
+    background-size: cover;
+}

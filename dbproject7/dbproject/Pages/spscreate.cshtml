@@ -1,0 +1,106 @@
+﻿@page
+@model dbproject.Pages.spscreateModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    @if (Model.errormessage.Length > 0)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>
+                <strong>@Model.errormessage </strong>
+            </strong>
+            <button type="button" class="btn-close" aria-label="Close">close</button>
+        </div>
+    }
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">shirtno</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="shirtno" value="@Model.info.shirtno" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">goals</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="goals" value="@Model.info.goals" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">assists</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="assists" value="@Model.info.assists" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">passes</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="passes" value="@Model.info.passes" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">dribbles</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="dribbles" value="@Model.info.dribbles" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">chances</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="chances" value="@Model.info.chances" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">slidetackles</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="slidetackles" value="@Model.info.slidetackles" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">standtackles</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="standtackles" value="@Model.info.standtackles" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">duels</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="duels" value="@Model.info.duels" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">interceptions</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="interceptions" value="@Model.info.interceptions" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">saves</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="saves" value="@Model.info.saves" />
+        </div>
+    </div>
+    @if (Model.smessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col sm-9">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>
+                        <strong> @Model.smessage </strong>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary" href="injury">SUBMIT</button>
+        </div>
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="xsign" role="button">CANCEL</a>
+        </div>
+    </div>
+</form>

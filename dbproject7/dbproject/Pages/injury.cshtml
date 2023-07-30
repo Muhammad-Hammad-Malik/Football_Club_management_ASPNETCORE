@@ -1,0 +1,51 @@
+﻿@page
+@model dbproject.Pages.injuryModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <style>
+        .createbutton {
+            position: absolute;
+            top: 20%;
+            right: 150px;
+            transform: translate(50%, -50%);
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>injurytype</th>
+                    <th>duration</th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.fn</td>
+                        <td>@item.ln</td>
+                        <td>@item.t</td>
+                        <td>@item.d</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="injuryupdate?incid=@item.incid">EDIT</a>
+                        </td>
+                            <td>
+                            <a class="btn btn-primary btn-sm" href="injurydelete?incid=@item.incid">Delete</a>
+                            </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="createbutton"> <a class="createbutton1" href="injurycreate">CREATE</a></div>
+</body>

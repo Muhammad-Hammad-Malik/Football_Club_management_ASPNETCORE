@@ -1,0 +1,430 @@
+﻿@page
+@model dbproject.Pages.deligtModel
+@{
+    Layout = null;
+}
+
+<head>
+    <title>Player Overview</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .cont {
+            min-height: 100vh;
+            background: linear-gradient(225deg,#17061c,#22192b,#30123e);
+            background-size: 300% 300%;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .chart {
+            font-family: 'Bebas Neue', cursive;
+            flex-basis: 100%;
+            max-width: 500px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            transition: 1s;
+        }
+
+        .player-details {
+            font-family: 'Inconsolata', monospace;
+            flex-basis: 48%;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: row;
+            transition: 1s;
+        }
+
+            .player-details img {
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+
+        .details {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .Bold {
+            font-family: 'Bebas Neue', cursive;
+        }
+
+        .small-box {
+            font-family: 'Inconsolata', monospace;
+            display: flex;
+            flex-basis: 100%;
+            max-width: 200px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            justify-content: center;
+            padding: 75px;
+            transition: 1s;
+        }
+
+        .big-box {
+            font-family: 'Inconsolata', monospace;
+            display: flex;
+            flex-basis: 100%;
+            max-width: 1250px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 100px;
+            transition: 1s;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .big-box:hover {
+            transform: scale(1.1);
+        }
+
+        .player-details:hover {
+            transform: scale(1.2);
+        }
+
+        .chart:hover {
+            transform: scale(1.2);
+        }
+
+        .small-box:hover {
+            transform: scale(1.1);
+        }
+
+        .video-box:hover {
+            transform: scale(1.1);
+        }
+
+        #last-three {
+            max-width: 335px;
+            margin: 20px 0;
+            justify-content: center;
+            padding: 100px;
+        }
+
+        .video-box {
+            font-family: 'Inconsolata', monospace;
+            display: flex;
+            flex-basis: 100%;
+            max-width: 1250px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 250px;
+            transition: 1s;
+        }
+
+        #player {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+            #player video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        @@media (min-width: 768px) {
+            .container {
+                padding: 40px;
+            }
+
+            .chart {
+                flex-basis: 48%;
+                margin: 20px 0;
+            }
+
+            .player-details {
+                flex-basis: 48%;
+                margin: 20px 0;
+            }
+
+            .big-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .small-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .video-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+        }
+
+        @@media (min-width: 1200px) {
+            .container {
+                padding: 60px;
+            }
+
+            .chart {
+                flex-basis: 30%;
+                margin: 20px 0;
+            }
+
+            .player-details {
+                flex-basis: 60%;
+                margin: 20px 0;
+            }
+
+            .big-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .small-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+
+            .video-box {
+                flex-basis: 100%;
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="container">
+            <div class="player-details">
+                @*change here*@
+                <img src="content/matthijsdelight.jpg" width="300" height="300">
+                <div class="details">
+                    <div class="Bold">
+                        <h2>@Model.pdata[0].fn @Model.pdata[0].ln</h2>
+                    </div>
+                    <p>Shirt Number: @Model.pdata[0].sn</p>
+                    <p>Position: @Model.pdata[0].position</p>
+                    <p>Age: @Model.pdata[0].age</p>
+                    <p>Nationality: @Model.pdata[0].nationality</p>
+                </div>
+            </div>
+            <div class="chart">
+                <h2>Ability Chart</h2>
+                <div class="chart-container">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <script>
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var attacking;
+                    var creativity;
+                    var defending;
+                    var tactical;
+                    var technical;
+                    attacking = @Model.pdata[0].goals;
+                    attacking /= 835;
+                    attacking *= 100;
+                    creativity = @Model.pdata[0].duels+@Model.pdata[0].interceptions;
+                    creativity /= 2500;
+                    creativity *= 100;
+                    defending = @Model.pdata[0].saves+@Model.pdata[0].slidetackles+ @Model.pdata[0].standtackles;
+                    defending /= 5250;
+                    defending *= 100;
+                    tactical = @Model.pdata[0].assists;
+                    tactical /= 250;
+                    tactical *= 100;
+                    technical = @Model.pdata[0].dribbles;
+                    technical /= 2400;
+                    technical *= 100;
+                    var myChart = new Chart(ctx, {
+                        type: 'radar',
+                        data: {
+                            labels: ['Attacking', 'Creativity', 'Defending', 'Tactical', 'Technical'],
+                            datasets: [{
+                                label: 'Stats',
+                                data: [attacking, creativity, defending, tactical, technical],
+                                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scale: {
+                                ticks: {
+                                    beginAtZero: true
+                                },
+                                gridLines: {
+                                    color: 'lightblue'
+                                }
+                            }
+                        }
+                    });
+                </script>
+            </div>
+            <div class="big-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>Market value</h2>
+                    </div>
+                    <p>$@Model.pdata[0].tvalue Million</p>
+                </div>
+                <div class="column">
+                    <div class="Bold">
+                        <h2>Career goals</h2>
+                    </div>
+                    <p>@Model.pdata[0].goals</p>
+                </div>
+                <div class="column">
+                    <div class="Bold">
+                        <h2>Career assists</h2>
+                    </div>
+                    <p>@Model.pdata[0].assists</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>Total Shots</h2>
+                    </div>
+                    <p>@Model.pdata[0].goals</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>shots on target</h2>
+                    </div>
+                    <p>@Model.pdata[0].goals</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>goals scored</h2>
+                    </div>
+                    <p>@Model.pdata[0].goals</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>total passes</h2>
+                    </div>
+                    <p>@Model.pdata[0].passes</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>passes completed</h2>
+                    </div>
+                    <p>@Model.pdata[0].passes</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>assists</h2>
+                    </div>
+                    <p>@Model.pdata[0].assists</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>chances created</h2>
+                    </div>
+                    <p>@Model.pdata[0].chances</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>dribbles</h2>
+                    </div>
+                    <p>@Model.pdata[0].dribbles</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>stand tackles</h2>
+                    </div>
+                    <p>@Model.pdata[0].standtackles</p>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>slide tackles</h2>
+                    </div>
+                    <p>@Model.pdata[0].slidetackles</p>
+                </div>
+            </div>
+            <div class="small-box" id="last-three">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>aerial duels</h2>
+                    </div>
+                    <p>@Model.pdata[0].duels</p>
+                </div>
+            </div>
+            <div class="small-box" id="last-three">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>interceptions</h2>
+                    </div>
+                    <p>@Model.pdata[0].interceptions</p>
+                </div>
+            </div>
+            <div class="small-box" id="last-three">
+                <div class="column">
+                    <div class="Bold">
+                        <h2>saves</h2>
+                    </div>
+                    <p>@Model.pdata[0].saves</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <div id="player">
+                    @*change here*@
+                    <video src="content/delight.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+

@@ -1,0 +1,36 @@
+﻿@page
+@model dbproject.Pages.xextendModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="schedule4.css">
+    <title></title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>contract</th>
+                    <th>X</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listofassists)
+                {
+                    <tr>
+                        <td>@item.fn</td>
+                        <td>@item.ln</td>
+                        <td>@item.ctr</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="xextendedit?pid=@item.pid">EXTEND</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

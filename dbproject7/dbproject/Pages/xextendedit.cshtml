@@ -1,0 +1,47 @@
+﻿@page
+@model dbproject.Pages.xextendeditModel
+@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="formstyler.css">
+    <title></title>
+</head>
+<form method="post">
+    <intput type="hidden" name="pid" value="@Model.info.pid">
+        @if (Model.errormessage.Length > 0)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>
+                    <strong>@Model.errormessage </strong>
+                </strong>
+                <button type="button" class="btn-close" aria-label="Close">close</button>
+            </div>
+        }
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Contract</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="ctr" value="@Model.info.ctr" />
+            </div>
+        </div>
+        @if (Model.smessage.Length > 0)
+        {
+            <div class="row mb-3">
+                <div class="col sm-9">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>
+                            <strong> @Model.smessage </strong>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary" href="xextend">SUBMIT</button>
+            </div>
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <a class="btn btn-outline-primary" href="xextend" role="button">CANCEL</a>
+            </div>
+        </div>
+</form>

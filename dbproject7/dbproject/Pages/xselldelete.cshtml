@@ -1,0 +1,60 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        string pid = Request.Query["pid"];
+        string shirtno = Request.Query["shirtno"];
+        string tvalue = Request.Query["tvalue"];
+        string fname = Request.Query["fname"];
+        string lname = Request.Query["lname"];
+        string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=club;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql12 = "INSERT INTO playersell " + "(pid, fname, lname, amount) " + "VALUES (@pid, @fname, @lname ,@tvalue)";
+
+            using (SqlCommand command2 = new SqlCommand(sql12, connection))
+            {
+                command2.Parameters.AddWithValue("@pid", pid);
+                command2.Parameters.AddWithValue("@tvalue", tvalue);
+                command2.Parameters.AddWithValue("@fname", fname);
+                command2.Parameters.AddWithValue("@lname", lname);
+                command2.ExecuteNonQuery();
+            }
+            string sql3 = "delete from playerstats where shirtno=@shirtno;";
+            using (SqlCommand command3 = new SqlCommand(sql3, connection))
+            {
+                command3.Parameters.AddWithValue("@shirtno", shirtno);
+                command3.ExecuteNonQuery();
+            }
+            string sql4 = "delete from playercontact where pid=@pid;";
+            using (SqlCommand command4 = new SqlCommand(sql4, connection))
+            {
+                command4.Parameters.AddWithValue("@pid", pid);
+                command4.ExecuteNonQuery();
+            }
+            string sql5 = "delete from playerfinancial where pid=@pid;";
+            using (SqlCommand command5 = new SqlCommand(sql5, connection))
+            {
+                command5.Parameters.AddWithValue("@pid", pid);
+                command5.ExecuteNonQuery();
+            }
+            string sql = "delete from playername where pid=@pid;";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@pid", pid);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("Exception thrown: " + ex.ToString());
+    }
+    Response.Redirect("xsell");
+}
